@@ -7,6 +7,18 @@
     <scm>
         <connection>scm:git:https://JeremyMcCormick@github.com/maven-git-test.git</connection>
         <developerConnection>scm:git:https://JeremyMcCormick@github.com/maven-git-test.git</developerConnection>
-        <url>https//github.com/JeremyMcCormick/maven-git-test</url>
+        <url>https://github.com/JeremyMcCormick/maven-git-test</url>
     </scm>
+    <distributionManagement>
+        <repository>
+            <id>lcsim-maven-slac-linux-repo</id>
+            <name>org.lcsim Maven Repository</name>
+            <url>scpexe://svn.slac.stanford.edu///nfs/slac/g/lcd/mc/prj/www/lcsim/maven2</url>
+        </repository>
+        <snapshotRepository>
+            <id>lcsim-maven-slac-linux-snapshot-repo</id>
+            <name>org.lcsim Maven Snapshot Repository</name>
+            <url>scpexe://svn.slac.stanford.edu///nfs/slac/g/lcd/mc/prj/www/lcsim/maven2</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
