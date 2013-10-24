@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>maven-git-test</artifactId>
     <groupId>org.lcsim</groupId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
     <scm>
         <connection>scm:git:https://JeremyMcCormick@github.com/maven-git-test.git</connection>
         <developerConnection>scm:git:https://JeremyMcCormick@github.com/maven-git-test.git</developerConnection>
