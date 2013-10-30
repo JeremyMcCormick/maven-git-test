@@ -9,13 +9,6 @@
     	<connection>scm:git:git://github.com/JeremyMcCormick/maven-git-test.git</connection>
     	<developerConnection>scm:git:git@github.com:JeremyMcCormick/maven-git-test.git</developerConnection>
     </scm>
-    <!--
-    <scm>
-        <connection>scm:git:https://JeremyMcCormick@github.com/maven-git-test.git</connection>
-        <developerConnection>scm:git:https://JeremyMcCormick@github.com/maven-git-test.git</developerConnection>
-        <url>https://github.com/JeremyMcCormick/maven-git-test</url>
-    </scm>
-    -->
     <distributionManagement>
         <repository>
             <id>lcsim-maven-slac-linux-repo</id>
